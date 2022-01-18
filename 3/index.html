@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Vanilla Challenge</title>
+    <meta charset="UTF-8" />
+    <style>
+      .hidden {
+        display: none;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h2>Random Number Game</h2>
+    <form id="game-form">
+      <h3>
+        Generate a number between 0 and
+        <input required id="input1" type="number" min="1" />
+      </h3>
+      <p>
+        Guess the number:
+        <input required id="input2" type="number" />
+        <button>Play!</button>
+      </p>
+    </form>
+    <span></span>
+    <h4></h4>
+    <button id="replayBtn" class="hidden">다시하기</button>
+    <script src="src/index.js"></script>
+  </body>
+</html>
